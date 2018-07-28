@@ -15,6 +15,7 @@
 		40085EDA210C70C200639C5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40085ED9210C70C200639C5E /* main.m */; };
 		40085EE4210C70C300639C5E /* RuntimeIMPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40085EE3210C70C300639C5E /* RuntimeIMPTests.m */; };
 		40085EEF210C70C300639C5E /* RuntimeIMPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40085EEE210C70C300639C5E /* RuntimeIMPUITests.m */; };
+		40085EFE210C70EB00639C5E /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 40085EFD210C70EB00639C5E /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		40085EEA210C70C300639C5E /* RuntimeIMPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeIMPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40085EEE210C70C300639C5E /* RuntimeIMPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeIMPUITests.m; sourceTree = "<group>"; };
 		40085EF0210C70C300639C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40085EFC210C70EB00639C5E /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		40085EFD210C70EB00639C5E /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				40085ECB210C70C200639C5E /* AppDelegate.m */,
 				40085ECD210C70C200639C5E /* ViewController.h */,
 				40085ECE210C70C200639C5E /* ViewController.m */,
+				40085EFC210C70EB00639C5E /* Test.h */,
+				40085EFD210C70EB00639C5E /* Test.m */,
 				40085ED0210C70C200639C5E /* Main.storyboard */,
 				40085ED3210C70C200639C5E /* Assets.xcassets */,
 				40085ED5210C70C200639C5E /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40085ECF210C70C200639C5E /* ViewController.m in Sources */,
+				40085EFE210C70EB00639C5E /* Test.m in Sources */,
 				40085EDA210C70C200639C5E /* main.m in Sources */,
 				40085ECC210C70C200639C5E /* AppDelegate.m in Sources */,
 			);
